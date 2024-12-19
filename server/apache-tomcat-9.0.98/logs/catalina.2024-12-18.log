@@ -1,0 +1,908 @@
+18-Dec-2024 15:25:08.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 15:25:08.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 15:25:08.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 15:25:08.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 15:25:08.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 15:25:08.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 15:25:08.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+18-Dec-2024 15:25:08.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+18-Dec-2024 15:25:08.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2024 15:25:08.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:25:08.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:25:08.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 15:25:08.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 15:25:08.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 15:25:08.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 15:25:08.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 15:25:08.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:25:08.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:25:08.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 15:25:08.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 15:25:08.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 15:25:08.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=62522:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 15:25:08.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 15:25:08.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 15:25:08.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 15:25:08.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 15:25:09.709 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:25:09.775 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1959] milliseconds
+18-Dec-2024 15:25:09.962 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 15:25:09.962 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 15:25:09.996 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 15:25:11.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.075] ms
+18-Dec-2024 15:25:11.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 15:25:11.271 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [189] ms
+18-Dec-2024 15:25:11.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 15:25:13.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [1.993] ms
+18-Dec-2024 15:25:13.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 15:25:13.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [189] ms
+18-Dec-2024 15:25:13.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 15:25:13.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [290] ms
+18-Dec-2024 15:25:13.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 15:25:13.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [135] ms
+18-Dec-2024 15:25:13.896 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:25:14.022 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4242] milliseconds
+18-Dec-2024 15:40:54.286 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:40:54.301 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 15:40:54.397 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:40:54.504 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:41:25.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 15:41:25.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 15:41:25.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 15:41:25.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 15:41:25.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 15:41:25.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 15:41:25.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+18-Dec-2024 15:41:25.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+18-Dec-2024 15:41:25.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2024 15:41:25.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:41:25.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:41:25.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 15:41:25.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 15:41:25.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 15:41:25.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 15:41:25.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 15:41:25.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:41:25.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:41:25.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 15:41:25.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 15:41:25.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 15:41:25.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=63748:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 15:41:25.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 15:41:25.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 15:41:25.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 15:41:25.461 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 15:41:26.708 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:41:26.763 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2054] milliseconds
+18-Dec-2024 15:41:26.881 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 15:41:26.881 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 15:41:26.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 15:41:27.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.009] ms
+18-Dec-2024 15:41:27.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 15:41:28.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [171] ms
+18-Dec-2024 15:41:28.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 15:41:30.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [2.027] ms
+18-Dec-2024 15:41:30.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 15:41:30.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [167] ms
+18-Dec-2024 15:41:30.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 15:41:30.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [228] ms
+18-Dec-2024 15:41:30.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 15:41:30.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [122] ms
+18-Dec-2024 15:41:30.657 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:41:30.718 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3953] milliseconds
+18-Dec-2024 15:41:42.794 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:41:42.800 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 15:41:42.852 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:41:42.877 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:42:41.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 15:42:41.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 15:42:41.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 15:42:41.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 15:42:41.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 15:42:41.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 15:42:41.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+18-Dec-2024 15:42:41.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+18-Dec-2024 15:42:41.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2024 15:42:41.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:42:41.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:42:41.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 15:42:41.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 15:42:41.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 15:42:41.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 15:42:41.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 15:42:41.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:42:41.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 15:42:41.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 15:42:41.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 15:42:41.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 15:42:41.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=63844:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 15:42:41.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 15:42:41.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 15:42:41.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 15:42:41.666 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 15:42:42.724 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:42:42.788 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1832] milliseconds
+18-Dec-2024 15:42:42.896 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 15:42:42.896 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 15:42:42.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 15:42:44.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.085] ms
+18-Dec-2024 15:42:44.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 15:42:44.165 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [148] ms
+18-Dec-2024 15:42:44.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 15:42:46.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [1.895] ms
+18-Dec-2024 15:42:46.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 15:42:46.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [149] ms
+18-Dec-2024 15:42:46.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 15:42:46.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [257] ms
+18-Dec-2024 15:42:46.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 15:42:46.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [131] ms
+18-Dec-2024 15:42:46.615 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 15:42:46.685 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3893] milliseconds
+18-Dec-2024 16:37:04.515 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 16:37:04.524 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 16:37:04.595 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 16:37:04.622 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 16:52:06.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 16:52:06.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 16:52:06.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 16:52:06.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 16:52:06.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 16:52:06.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 16:52:06.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+18-Dec-2024 16:52:06.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+18-Dec-2024 16:52:06.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2024 16:52:06.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 16:52:06.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 16:52:06.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 16:52:06.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 16:52:06.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 16:52:06.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 16:52:06.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 16:52:06.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 16:52:06.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 16:52:06.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 16:52:06.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 16:52:06.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 16:52:06.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=52740:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 16:52:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 16:52:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 16:52:06.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 16:52:06.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 16:52:08.762 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 16:52:08.917 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3229] milliseconds
+18-Dec-2024 16:52:09.161 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 16:52:09.162 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 16:52:09.197 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 16:52:10.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.564] ms
+18-Dec-2024 16:52:10.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 16:52:11.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [305] ms
+18-Dec-2024 16:52:11.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 16:52:14.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [3.253] ms
+18-Dec-2024 16:52:14.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 16:52:14.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [337] ms
+18-Dec-2024 16:52:14.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 16:52:15.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [333] ms
+18-Dec-2024 16:52:15.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 16:52:15.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [146] ms
+18-Dec-2024 16:52:15.175 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 16:52:15.327 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6407] milliseconds
+18-Dec-2024 17:07:11.599 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 17:07:11.608 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 17:07:11.717 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 17:07:11.731 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 17:07:17.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 17:07:17.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 17:07:17.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 17:07:17.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 17:07:17.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 17:07:17.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 17:07:17.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+18-Dec-2024 17:07:17.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+18-Dec-2024 17:07:17.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2024 17:07:17.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 17:07:17.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 17:07:17.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 17:07:17.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 17:07:17.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 17:07:17.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 17:07:17.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 17:07:17.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 17:07:17.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 17:07:17.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 17:07:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 17:07:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 17:07:17.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=54119:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 17:07:17.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 17:07:17.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 17:07:17.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 17:07:17.990 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 17:07:20.248 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 17:07:20.345 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3296] milliseconds
+18-Dec-2024 17:07:20.536 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 17:07:20.536 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 17:07:20.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 17:07:21.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.204] ms
+18-Dec-2024 17:07:21.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 17:07:21.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [194] ms
+18-Dec-2024 17:07:21.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 17:07:24.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [2.959] ms
+18-Dec-2024 17:07:24.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 17:07:25.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [285] ms
+18-Dec-2024 17:07:25.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 17:07:25.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [243] ms
+18-Dec-2024 17:07:25.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 17:07:25.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [149] ms
+18-Dec-2024 17:07:25.639 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 17:07:26.965 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6616] milliseconds
+18-Dec-2024 21:38:48.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 21:38:48.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 21:38:48.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 21:38:48.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 21:38:48.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 21:38:48.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 21:38:48.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+18-Dec-2024 21:38:48.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+18-Dec-2024 21:38:48.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2024 21:38:48.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 21:38:48.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 21:38:48.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 21:38:48.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 21:38:48.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 21:38:48.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 21:38:48.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 21:38:48.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 21:38:48.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 21:38:48.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 21:38:48.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 21:38:48.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 21:38:48.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50565:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 21:38:48.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 21:38:48.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 21:38:48.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 21:38:49.014 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 21:38:51.762 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 21:38:52.090 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4242] milliseconds
+18-Dec-2024 21:38:52.386 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 21:38:52.386 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 21:38:52.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 21:38:54.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.798] ms
+18-Dec-2024 21:38:54.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 21:38:54.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [346] ms
+18-Dec-2024 21:38:54.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 21:38:57.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [3.292] ms
+18-Dec-2024 21:38:57.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 21:38:58.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [228] ms
+18-Dec-2024 21:38:58.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 21:38:58.461 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [262] ms
+18-Dec-2024 21:38:58.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 21:38:58.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [266] ms
+18-Dec-2024 21:38:58.751 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 21:38:59.535 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7439] milliseconds
+18-Dec-2024 22:56:38.880 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/testeVector]
+18-Dec-2024 22:56:38.912 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testeVector] has started
+18-Dec-2024 22:56:39.532 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testeVector] is completed
+18-Dec-2024 22:56:49.554 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/testeVector]
+18-Dec-2024 22:56:49.555 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testeVector] has started
+18-Dec-2024 22:56:49.840 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/testeVector]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3225)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 17 more
+18-Dec-2024 22:56:49.848 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testeVector] is completed
+18-Dec-2024 23:11:51.928 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:11:51.959 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 23:11:52.023 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:11:52.053 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:46:32.318 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 23:46:32.325 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 23:46:32.325 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 23:46:32.325 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 23:46:32.325 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 23:46:32.326 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 23:46:32.326 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2
+18-Dec-2024 23:46:32.326 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-FR
+18-Dec-2024 23:46:32.326 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Dec-2024 23:46:32.326 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:46:32.327 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:46:32.342 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 23:46:32.342 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 23:46:32.342 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 23:46:32.343 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 23:46:32.343 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 23:46:32.343 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:46:32.343 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:46:32.344 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 23:46:32.344 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 23:46:32.344 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 23:46:32.345 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50228:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 23:46:32.345 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 23:46:32.345 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 23:46:32.345 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 23:46:32.371 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 23:46:33.407 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:46:33.485 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1737] milliseconds
+18-Dec-2024 23:46:33.669 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 23:46:33.670 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 23:46:33.711 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 23:46:35.576 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 36 more
+18-Dec-2024 23:46:35.588 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.873] ms
+18-Dec-2024 23:46:35.590 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 23:46:36.273 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [682] ms
+18-Dec-2024 23:46:36.276 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 23:46:41.081 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [4.805] ms
+18-Dec-2024 23:46:41.082 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 23:46:41.245 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [163] ms
+18-Dec-2024 23:46:41.246 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 23:46:41.728 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [481] ms
+18-Dec-2024 23:46:41.730 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 23:46:41.844 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [113] ms
+18-Dec-2024 23:46:41.855 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:46:41.907 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [8419] milliseconds
+18-Dec-2024 23:47:37.847 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:47:37.856 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 23:47:37.903 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:47:37.921 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:47:47.567 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 23:47:47.574 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 23:47:47.575 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 23:47:47.575 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 23:47:47.575 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 23:47:47.575 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 23:47:47.576 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2
+18-Dec-2024 23:47:47.576 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-FR
+18-Dec-2024 23:47:47.577 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Dec-2024 23:47:47.577 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:47:47.577 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:47:47.598 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 23:47:47.598 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 23:47:47.598 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 23:47:47.599 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 23:47:47.599 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 23:47:47.599 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:47:47.599 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:47:47.599 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 23:47:47.600 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 23:47:47.600 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 23:47:47.600 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50255:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 23:47:47.600 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 23:47:47.601 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 23:47:47.601 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 23:47:47.630 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 23:47:48.568 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:47:48.623 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1692] milliseconds
+18-Dec-2024 23:47:48.747 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 23:47:48.747 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 23:47:48.773 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 23:47:50.553 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 36 more
+18-Dec-2024 23:47:50.568 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.788] ms
+18-Dec-2024 23:47:50.570 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 23:47:51.143 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [573] ms
+18-Dec-2024 23:47:51.144 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 23:47:52.633 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [1.489] ms
+18-Dec-2024 23:47:52.634 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 23:47:52.756 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [123] ms
+18-Dec-2024 23:47:52.757 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 23:47:52.915 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [158] ms
+18-Dec-2024 23:47:52.916 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 23:47:53.002 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [85] ms
+18-Dec-2024 23:47:53.013 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:47:53.058 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4431] milliseconds
+18-Dec-2024 23:51:44.137 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:51:44.144 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 23:51:44.199 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:51:44.214 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:51:54.384 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 23:51:54.393 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 23:51:54.393 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 23:51:54.394 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 23:51:54.394 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 23:51:54.394 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 23:51:54.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2
+18-Dec-2024 23:51:54.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-FR
+18-Dec-2024 23:51:54.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Dec-2024 23:51:54.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:51:54.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:51:54.417 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 23:51:54.417 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 23:51:54.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 23:51:54.418 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 23:51:54.419 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 23:51:54.419 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:51:54.419 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:51:54.419 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 23:51:54.419 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 23:51:54.420 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 23:51:54.421 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50344:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 23:51:54.421 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 23:51:54.421 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 23:51:54.422 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 23:51:54.450 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 23:51:55.401 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:51:55.452 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1722] milliseconds
+18-Dec-2024 23:51:55.570 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 23:51:55.570 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 23:51:55.596 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 23:51:57.364 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 36 more
+18-Dec-2024 23:51:57.379 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.777] ms
+18-Dec-2024 23:51:57.381 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 23:51:57.971 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [589] ms
+18-Dec-2024 23:51:57.971 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 23:51:59.660 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [1.689] ms
+18-Dec-2024 23:51:59.662 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 23:51:59.853 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [192] ms
+18-Dec-2024 23:51:59.854 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 23:52:00.090 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [236] ms
+18-Dec-2024 23:52:00.091 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 23:52:00.199 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [108] ms
+18-Dec-2024 23:52:00.260 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:52:00.340 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4884] milliseconds
+18-Dec-2024 23:52:51.874 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:52:51.884 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 23:52:51.943 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:52:51.956 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:54:33.435 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 23:54:33.444 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 23:54:33.445 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 23:54:33.445 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 23:54:33.445 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 23:54:33.446 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 23:54:33.446 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2
+18-Dec-2024 23:54:33.446 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-FR
+18-Dec-2024 23:54:33.447 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Dec-2024 23:54:33.447 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:54:33.447 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:54:33.468 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 23:54:33.468 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 23:54:33.468 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 23:54:33.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 23:54:33.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 23:54:33.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:54:33.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:54:33.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 23:54:33.469 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 23:54:33.470 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 23:54:33.470 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50363:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 23:54:33.470 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 23:54:33.470 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 23:54:33.470 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 23:54:33.499 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 23:54:34.445 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:54:34.500 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1755] milliseconds
+18-Dec-2024 23:54:34.619 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 23:54:34.620 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 23:54:34.649 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 23:54:35.359 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 36 more
+18-Dec-2024 23:54:35.376 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [718] ms
+18-Dec-2024 23:54:35.378 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 23:54:35.926 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [548] ms
+18-Dec-2024 23:54:35.927 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 23:54:37.668 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [1.740] ms
+18-Dec-2024 23:54:37.668 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 23:54:37.844 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [176] ms
+18-Dec-2024 23:54:37.845 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 23:54:38.059 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [214] ms
+18-Dec-2024 23:54:38.060 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 23:54:38.157 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [96] ms
+18-Dec-2024 23:54:38.170 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:54:38.223 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [3719] milliseconds
+18-Dec-2024 23:57:56.582 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:57:56.595 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 23:57:56.644 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:57:56.662 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:00.513 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 23:58:00.522 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 23:58:00.522 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 23:58:00.523 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 23:58:00.523 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 23:58:00.523 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 23:58:00.523 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2
+18-Dec-2024 23:58:00.524 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-FR
+18-Dec-2024 23:58:00.524 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Dec-2024 23:58:00.525 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:00.525 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:00.544 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 23:58:00.544 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 23:58:00.545 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 23:58:00.545 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 23:58:00.545 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 23:58:00.545 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:00.546 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:00.546 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 23:58:00.546 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 23:58:00.546 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 23:58:00.547 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50422:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 23:58:00.547 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 23:58:00.547 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 23:58:00.547 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 23:58:00.574 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 23:58:01.517 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:01.568 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1701] milliseconds
+18-Dec-2024 23:58:01.687 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 23:58:01.688 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 23:58:01.717 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 23:58:02.875 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [1.153] ms
+18-Dec-2024 23:58:02.877 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 23:58:03.036 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [158] ms
+18-Dec-2024 23:58:03.037 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 23:58:04.841 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [1.804] ms
+18-Dec-2024 23:58:04.843 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 23:58:05.005 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [162] ms
+18-Dec-2024 23:58:05.006 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 23:58:05.197 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [191] ms
+18-Dec-2024 23:58:05.198 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 23:58:05.297 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [100] ms
+18-Dec-2024 23:58:05.310 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:05.386 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [3815] milliseconds
+18-Dec-2024 23:58:41.978 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:41.986 INFORMAÇÕES [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2024 23:58:42.061 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:42.075 INFORMAÇÕES [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:56.247 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.98
+18-Dec-2024 23:58:56.256 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2024 19:50:29 UTC
+18-Dec-2024 23:58:56.257 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.98.0
+18-Dec-2024 23:58:56.257 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2024 23:58:56.257 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2024 23:58:56.257 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2024 23:58:56.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2
+18-Dec-2024 23:58:56.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-FR
+18-Dec-2024 23:58:56.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Dec-2024 23:58:56.258 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:56.259 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:56.282 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2024 23:58:56.283 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2024 23:58:56.283 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Dec-2024 23:58:56.283 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Dec-2024 23:58:56.283 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2024 23:58:56.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:56.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98
+18-Dec-2024 23:58:56.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\temp
+18-Dec-2024 23:58:56.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\logging.properties
+18-Dec-2024 23:58:56.284 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2024 23:58:56.285 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=50429:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin
+18-Dec-2024 23:58:56.285 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Dec-2024 23:58:56.285 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Dec-2024 23:58:56.285 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Dec-2024 23:58:56.315 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Gustavo e Jordana\.jdks\corretto-22.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gustavo e Jordana\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gustavo e Jordana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gustavo e Jordana\AppData\Roaming\npm;.]
+18-Dec-2024 23:58:57.244 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:58:57.319 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1685] milliseconds
+18-Dec-2024 23:58:57.438 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2024 23:58:57.439 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Dec-2024 23:58:57.502 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+18-Dec-2024 23:58:58.203 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 36 more
+18-Dec-2024 23:58:58.216 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\conf\Catalina\localhost\testeVector.xml] has finished in [708] ms
+18-Dec-2024 23:58:58.218 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs]
+18-Dec-2024 23:58:58.815 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\docs] has finished in [597] ms
+18-Dec-2024 23:58:58.817 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples]
+18-Dec-2024 23:59:01.089 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\examples] has finished in [2.272] ms
+18-Dec-2024 23:59:01.090 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager]
+18-Dec-2024 23:59:01.252 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\host-manager] has finished in [163] ms
+18-Dec-2024 23:59:01.253 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager]
+18-Dec-2024 23:59:01.420 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\manager] has finished in [167] ms
+18-Dec-2024 23:59:01.422 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT]
+18-Dec-2024 23:59:01.531 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Gustavo e Jordana\Documents\Workspace\Estudos\testeVector\server\apache-tomcat-9.0.98\webapps\ROOT] has finished in [110] ms
+18-Dec-2024 23:59:01.544 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2024 23:59:01.600 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4277] milliseconds
+18-Dec-2024 23:59:31.600 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/testeVector]
+18-Dec-2024 23:59:31.770 GRAVE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/testeVector] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/testeVector]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [ServletsProduct]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2790)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1512)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1299)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:973)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4366)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 16 more
